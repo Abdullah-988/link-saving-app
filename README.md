@@ -12,7 +12,18 @@ git clone https://github.com/Abdullah-988/link-saving-app.git
 
 ### Backend
 
-run:
+Setup `.env` file
+
+```
+SECRET_KEY=
+DB_NAME=
+DB_USER=
+DB_PASSOWRD=
+DB_HOST=
+DB_PORT=
+```
+
+then run:
 
 ```bash
 python manage.py makemigrations
